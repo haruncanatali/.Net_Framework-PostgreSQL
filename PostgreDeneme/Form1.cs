@@ -19,7 +19,7 @@ namespace PostgreDeneme
         {
             InitializeComponent();
 
-            connection = new NpgsqlConnection("server=localhost; port=5432; Database=Deneme; user Id=postgres; password=HARUNCAN67");
+            connection = new NpgsqlConnection("server=localhost; port=5432; Database=Deneme; user Id=postgres; password=12345");
         }
 
         private void Form1_Load(object sender, EventArgs e)
